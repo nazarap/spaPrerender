@@ -1,0 +1,20 @@
+{
+  "name": "spa-prerender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "crawlers": "node crawlers",
+    "generate-sitemap": "node ./libs/snapshot/sitemap run",
+    "generate-linksmap": "node ./libs/common/linksmap run",
+    "snapshots": "node ./libs/snapshot/all run",
+    "sitemap": "node ./libs/sitemap/write run",
+    "get-sitemap": "node ./libs/sitemap/read run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.20.0",
+    "xml2json": "^0.11.2"
+  }
+}

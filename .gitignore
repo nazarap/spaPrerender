@@ -1,0 +1,4 @@
+/cached/*.html
+/logs/**
+/chromium/**
+/sitemap.xml
